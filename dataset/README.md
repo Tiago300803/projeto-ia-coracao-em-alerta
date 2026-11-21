@@ -1,4 +1,4 @@
-# Dataset — UCI Heart Disease (subconjunto Cleveland)
+﻿# Dataset — UCI Heart Disease (subconjunto Cleveland)
 
 Breve descrição do dataset utilizado no projeto "Coração em Alerta" (ver artigo completo em
 `../artigo/` para a descrição detalhada, Seção 3.2).
@@ -34,17 +34,19 @@ Breve descrição do dataset utilizado no projeto "Coração em Alerta" (ver art
 | 10 | depressao_st | Depressão do segmento ST induzida por exercício |
 | 11 | inclinacao_st | Inclinação do segmento ST no pico do exercício |
 | 12 | num_vasos_fluoroscopia | Nº de vasos principais coloridos por fluoroscopia (0–3) |
-| 13 | talassemia | Resultado do teste de tálio |
+| 13 | resultado_talio | Resultado do teste de tálio (3 = normal, 6 = defeito fixo, 7 = defeito reversível); na Parte 2 foi chamado, incorretamente, de "talassemia" |
 | 14 | num | Rótulo original: 0 = ausência, 1–4 = graus de severidade de doença arterial coronariana (DAC), diagnosticada por angiografia |
 
-No notebook (`../codigo/analise_heart_disease.ipynb`), o rótulo `num` é binarizado em `alvo`
+No notebook (`../codigo/analise_final_heart_disease.ipynb`), o rótulo `num` é binarizado em `alvo`
 (0 = ausência, 1 = presença de DAC), que é o que o projeto efetivamente classifica.
 
 ## Tamanho e qualidade
 
 - 303 registros brutos; 6 registros (2,0%) têm valor ausente em `num_vasos_fluoroscopia` e/ou
-  `talassemia` — removidos na preparação dos dados (ver notebook, Seção 4).
+  `resultado_talio` — removidos na preparação dos dados (ver notebook, Seções 2 e 9).
 - Distribuição do rótulo binarizado, após limpeza: 46,1% de casos positivos (presença de DAC),
   53,9% de casos negativos — razoavelmente balanceado.
 - **Importante**: a base representa pacientes já encaminhados para avaliação cardiológica na
   Cleveland Clinic (Estados Unidos, década de 1980), não uma amostra da população geral.
+
+
