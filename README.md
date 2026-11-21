@@ -5,6 +5,7 @@ Informática, Universidade Presbiteriana Mackenzie. Prof. Dr. Ivan Carlos Alcân
 **Parte 3 (N2): artigo final, código completo e vídeo.**
 
 **Repositório:** https://github.com/Tiago300803/projeto-ia-coracao-em-alerta
+**Vídeo (até 5 min):** https://youtu.be/Or3BiLCbvEQ
 
 ## Integrante
 
@@ -77,5 +78,5 @@ scikit-learn 1.9.1, XGBoost 3.4.1, SHAP 0.52.
 
 - [x] N1: artigo parcial.
 - [x] N2: protocolo final, artigo final, README, roteiro do vídeo.
-- [ ] Vídeo gravado e link inserido na Seção 4.3 do artigo (ação do autor).
+- [x] Vídeo gravado e link inserido na Seção 4.3 do artigo: https://youtu.be/Or3BiLCbvEQ
 
